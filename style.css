@@ -20,13 +20,13 @@ header {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px; /* Add padding for spacing */
+    padding: 0 20px; 
 }
 
 .header-content h1 {
-    margin: 0;
-    flex-grow: 1; /* Ensures the title takes the available space */
-}
+    margin: 10px;
+    flex-grow: 1; 
+} 
 
 nav ul {
     list-style: none;
@@ -115,4 +115,12 @@ footer {
 .td-tshirt{
     cursor: pointer;
     background-color: #a8dadc;
+}
+h2{
+    margin-top: 0%;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+.price{
+    color: rgb(12, 235, 97);
 }
